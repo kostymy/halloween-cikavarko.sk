@@ -88,7 +88,8 @@ nav .fa{
 
 @media(max-width: 700px){
     .text-box{
-        font-size: 20px;
+        font-size: 0;
+
     }
     .nav-links ul li{
         display: block;
@@ -96,7 +97,7 @@ nav .fa{
     .nav-links{
         position: fixed;
         background: #C4A484;
-        height: 100vh;
+        height: 640vh;
         width: 200px;
         top: 0;
         right: -200px;
@@ -179,12 +180,6 @@ h3{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
 }
 
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
-
-}
 
 .predajne{
     width: 80%;
@@ -246,12 +241,7 @@ h3{
 .recenzie-col .fa{
     color:#f44336;
 }
-@media(max-width: 700px){
-    .recenzie-col img{
-        margin-left: 0;
-        margin-right: 15px;
-    }
-}
+
 
 .footer{
     width: 100%;
@@ -375,6 +365,3 @@ h3{
     font-weight: 200;
 }
 
-@media all and (max-width: 700px){
-    
-}
