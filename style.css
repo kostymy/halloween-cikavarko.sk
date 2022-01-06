@@ -49,10 +49,10 @@ nav img {
     width: 100%;
 }
 .text-box{
-    width: 90%;
+    width: 100%;
     color: #fff;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -61,7 +61,7 @@ nav img {
     font-size: 80px;
 }
 .text-box p{
-    margin: 40px 0 80px;
+    margin: 40px 0 40px;
     font-size: 40px;
     color: #fff;
 }
@@ -209,39 +209,6 @@ h3{
     text-align: center;
 }
 
-.recenzie{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.recenzie-col{
-    flex-basis: 66%;
-    border-radius: 88px;
-    margin-bottom: 1%;
-    text-align: left;
-    background:  #ffefd5;
-    padding: 25px;
-    cursor: pointer;
-    display: flex;
-}
-.recenzie-col img{
-    height: 100px;
-    margin-left: 30px;
-    margin-right: 60px;
-    border-radius: 42%;
-}
-.recenzie-col p{
-    padding: 0;
-}
-.recenzie-col h3{
-    margin-top: 45px;
-    text-align: left;
-}
-.recenzie-col .fa{
-    color:#f44336;
-}
-
 
 .footer{
     width: 100%;
@@ -365,3 +332,132 @@ h3{
     font-weight: 200;
 }
 
+
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size:40px;
+    }
+    .text-box p{
+        font-size: 24px;
+    }
+    .kava h1{
+        font-size: 35px;
+    }
+    .kava{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+
+    }
+    .kava-col{
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+
+    }
+    .kava-col img{
+        width: 80%
+
+    }
+    .kava h3{
+        font-size: 23px;
+    }
+    .kava p{
+        font-size: 20px;
+    }
+
+    .row{
+        display:block;
+    }
+    .predajne-col{
+        display:block;
+    }
+    .predajne h1{
+        font-size: 35px;
+    }
+
+    .novinky{
+        width: 13%;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .novinky-col h1{
+        padding-top: 0;
+        text-align: center;
+    }
+    .novinky-col p{
+        text-align: center;
+
+    }
+
+}
+@media(max-width: 700px){
+
+    .novinky{
+        width: 85%;
+        height: 100%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+    .novinky-col h1{
+        padding-top: 0;
+
+    }
+    .novinky-col p{
+        text-align: center;
+
+    }
+    .sub-header h1{
+        font-size: 35px;
+    }
+    .kontakt{
+        display:block;
+    }
+    .novinkyframe-col iframe{
+        width: 300px;
+        height: 230px;
+    }
+    .o-nas{
+        width: 90%;
+        margin: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    .o-nas-col{
+        flex-basis: 20px;
+        padding: 20px;
+        text-align: left;
+
+    }
+
+    .o-nas-col h1{
+        padding-top: 0;
+        text-align: left;
+        font-size: 30px;
+
+    }
+    .o-nas-col p{
+        padding: 15px 0 25px;
+        text-align: left;
+    }
+
+    .row img{
+        width: 330px;
+
+    }
+
+
+
+
+}
