@@ -2,15 +2,14 @@
 <html lang="sk">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8WQF9L409E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WQF9L409E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-8WQF9L409E');
+    </script>
 
-  gtag('config', 'G-8WQF9L409E');
-</script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halloween</title>
@@ -23,56 +22,80 @@
 <section class="header">
     <nav>
         <a href="index.html">
-        <div class="nav-links" id="navLinks">
-            <i class="fa fa-window-close" onclick="hideMenu()"></i>
-
-            <ul>
-                <li> <li><a href="index.html"><h4>DOMOV</h4></a></li>
-        
-            </ul>
-        </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"><h4>DOMOV</h4></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </a>
     </nav>
 
-    <div class="text-box">
-        <br>
-        <br>
-        <br>
-        <h1>Halloweenske kostýmy</h1>
-        <br>
-        <p>Výber rôznych druhov kostýmov.</p>
-        <br>
+  
 
+
+    <div class="text-box">
+        <h1>Cikavarko halloweenske kostýmy</h1>
+        <p> Výber halloweenskych kostýmov pre všetky vekové druhy.</p>
     </div>
 </section>
 
 
-<br>
-<br>
-
-<section class="footer">
-   
-    <br>
-    <br>
-    <p>Autorka stránky <i class="fa fa-heart-o"></i> Katarína Ganobjáková</p>
-
+<section class="about-us">
+    <h2>O nás</h2>
+    <p>V našom obchode s halloweenskými kostýmami sme vašou jedinou destináciou pre všetky veci strašidelné a zábavné kostými. S vášňou pre kostýmy ponúkame pestrú škálu halloweenskeho oblečenia pre všetky vekové kategórie a preferencie. Naším cieľom je zlepšiť váš zážitok z Halloweenu a poskytnúť vám nezabudnuteľnú oslavu. S dlhoročnými odbornými znalosťami a oddaným tímom vyberáme ten najlepší výber kostýmov a doplnkov.</p>
 </section>
 
 
 
+<section class="products">
+    <h2>Druhy halloweenskych kostýmov</h2>
+    <ul>
+        <li>
+        
+                <img src="https://m.media-amazon.com/images/I/71C8Gzfd1lL._AC_UY1000_.jpg" alt="Scary Costumes"> 
+                
+                 <br> Strašidelné kostýmy
+        
+                
+            </div>
+          
+        </li>
+        <li>
 
+        
+            <img src="https://media-www.partycity.ca/product/seasonal-gardening/party-city-seasonal/party-city-halloween-and-fall-decor/8523224/child-classic-pikachu-costume-pokemon-medium-ae17b6e5-acbe-454c-8af0-1f008878ec83-jpgrendition.jpg" alt="Cute Costumes">
+            <br> Roztomilé kostýmy
+        </li>
+       
+        <li>
+            <img src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1692650644-51GyyJHiptL.jpg?crop=0.833xw:1xh;center,top&resize=980:*" alt="Superheroes">
+            <br> Superhrdinovia
+        </li>
+        <li>
+            <img src="https://hips.hearstapps.com/hmg-prod/images/tweedle-dee-and-dum-64c32a095df75.jpg?crop=1xw:0.9664006719865603xh;center,top&resize=980:*" alt="Disney Characters">
+            <br>  Disney postavy
+        </li>
+    </ul>
+</section>
+
+
+
+<section class="footer">
+    <p>Autorka stránky <i class="fa fa-heart-o"></i> Katarína Ganobjáková</p>
+</section>
 
 <script>
-
     let navLinks = document.getElementById("navLinks");
 
-    function showMenu(){
+    function showMenu() {
         navLinks.style.right = "0";
     }
-    function hideMenu(){
+
+    function hideMenu() {
         navLinks.style.right = "-200px";
     }
-
 </script>
 
 </body>
