@@ -4,6 +4,7 @@
     --main-color:#c419ef;
     --black:#141215;
 }
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
@@ -11,7 +12,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: normal;
     transition: all .2s linear;
     transition: width none;
 
@@ -345,8 +346,8 @@ section{
 }
 
 .about .content{
-    padding:13rem;
-    max-width: 50rem;
+    padding: 13rem;
+    max-width: 70rem ;
 }
 
 .about .content h3{
@@ -357,6 +358,6 @@ section{
 .about .content p{
     font-size: 1.5rem;
     color:#fff;
-   
+    line-height: 2;
     padding: 1rem 0;
 }
