@@ -100,17 +100,9 @@ section {
 .header .logo i{
     padding-right: .5rem;
     color:var(--main-color);
-    animation: floating 4s linear infinite;
+   
 }
 
-@keyframes floating{
-    0%, 100%{
-        transform: translateY(0rem);
-    }
-    50%{
-    transform: translateY(-1rem);
-} 
-} 
 
 .header .navbar a{
     font-size: 1.7rem;
@@ -225,7 +217,7 @@ section{
 
 
 @media(max-width:450px){
-    html{font: size 50%;
+    html{font: size 30%;
 }
 }
 }
