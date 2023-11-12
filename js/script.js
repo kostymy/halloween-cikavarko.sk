@@ -8,8 +8,9 @@ document.querySelector('#search-btn').onclick = () =>{
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
-    searchForm.classList.remove('active');
     navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+   
 }
 
 window.onscroll = () =>{
@@ -24,7 +25,7 @@ window.onscroll = () =>{
 }
 }
 
-var swiper = new Swiper(".products-slider"),{
+var swiper = new Swiper(".products-slider",{
    spaceBetween: 20,
    loop:true,
    centeredSLides: true,
@@ -37,10 +38,10 @@ breakpoints: {
     10: {
         slidesPerView: 1,
     },
-    768{
+    768: {
         slidesPerView: 2,
     },
-    991 {
+    991: {
         slidesPerView: 3,
     },
 },

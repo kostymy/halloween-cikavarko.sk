@@ -337,3 +337,26 @@ section{
     color:var(--main-color);
     text-decoration: line-through;
 }
+
+.about{
+    background: url(image/h3.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about .content{
+    padding:13rem;
+    max-width: 50rem;
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color:var(--main-color);
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color:#fff;
+   
+    padding: 1rem 0;
+}
