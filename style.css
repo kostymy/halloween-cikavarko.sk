@@ -217,21 +217,13 @@ section{
 }
 
 
-@media(max-width:540px){
-    html{font: size 55%;
-    }
-    .header{ padding: 2rem;
-    }
-    .header.active{
-        padding: 2rem;
-      
-    }
-    section{
-        padding: 2 rem;
-    }
-}
+@media(max-width:450px){
+    html{font: size 50%;
+
 }
 
+}
+}
 
 .header.active{
     padding: 2rem 9%;
