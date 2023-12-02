@@ -249,7 +249,7 @@ section{
 }
 
 .home .home-slider .box .content h3{
-    font-size: 8rem;
+    font-size: 7rem;
     color:#fff;
     transition-delay: .2s;
     margin-top: 20rem;
@@ -348,8 +348,8 @@ section{
 }
 
 .about .content{
-    padding: 13rem;
-    max-width: 70rem ;
+    padding: 5rem;
+    max-width: 50rem;
 }
 
 .about .content h3{
@@ -362,7 +362,9 @@ section{
     color:#fff;
     line-height: 2;
     padding: 1rem 0;
+    text-align: left;
 }
+
 
 .arrivals .box-container{
     display: grid;
