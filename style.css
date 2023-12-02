@@ -350,11 +350,13 @@ transition: .2s linear;
 .about .content{
     padding: 13rem;
     max-width: 70rem ;
+    
 }
 
 .about .content h3{
-    font-size: 3rem;
+    font-size: 4rem;
     color:var(--main-color);
+    padding: 1rem 0;
 }
 
 .about .content p{
@@ -362,6 +364,7 @@ transition: .2s linear;
     color:#fff;
     line-height: 2;
     padding: 1rem 0;
+    text-align: left;
 }
 
 .arrivals .box-container{
