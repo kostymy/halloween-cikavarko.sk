@@ -24,26 +24,3 @@ window.onscroll = () => {
         document.querySelector('.header').classList.remove('active');
     }
 }
-
-// Initialize a Swiper instance for the products slider
-var swiper = new Swiper(".products-slider", {
-    spaceBetween: 20,
-    loop: true,
-    centeredSlides: true,
-    autoplay: {
-        delay: 9500,
-        disableOnInteraction: false,
-    },
-    grabCursor: true,
-    breakpoints: {
-        10: {
-            slidesPerView: 1,
-        },
-        768: {
-            slidesPerView: 2,
-        },
-        991: {
-            slidesPerView: 3,
-        },
-    },
-});
