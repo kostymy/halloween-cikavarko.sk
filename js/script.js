@@ -1,31 +1,31 @@
+// Toggle the 'active' class on the search form when the search button is clicked
 let searchForm = document.querySelector('.search-form');
-
-document.querySelector('#search-btn').onclick = () =>{
+document.querySelector('#search-btn').onclick = () => {
     searchForm.classList.toggle('active');
     navbar.classList.remove('active');
 }
 
+// Toggle the 'active' class on the navbar when the menu button is clicked
 let navbar = document.querySelector('.navbar');
-
-document.querySelector('#menu-btn').onclick = () =>{
+document.querySelector('#menu-btn').onclick = () => {
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
-   
 }
 
-window.onscroll = () =>{
+// Remove the 'active' class from the search form and navbar when scrolling
+window.onscroll = () => {
     searchForm.classList.remove('active');
     navbar.classList.remove('active');
 
-    if(window.scrollY> 0){
+    // Add or remove the 'active' class on the header based on the scroll position
+    if (window.scrollY > 0) {
         document.querySelector('.header').classList.add('active');
-    }else{
-    document.querySelector('.header').classList.remove('active');
-
+    } else {
+        document.querySelector('.header').classList.remove('active');
+    }
 }
-}
 
-
+// Initialize a Swiper instance for the products slider
 var swiper = new Swiper(".products-slider", {
     spaceBetween: 20,
     loop: true,
