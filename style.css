@@ -387,7 +387,7 @@ section{
     max-width: 50rem;
 }
 
-.about .content h3{
+.about .content h1{
     font-size: 3rem;
     color:var(--main-color);
 }
