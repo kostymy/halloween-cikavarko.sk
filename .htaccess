@@ -1,7 +1,10 @@
 # Enable URL rewriting
 RewriteEngine On
-RewriteCond %{HTTP_HOST} !^kostymy\.github\.io/halloween-cikavarko\.sk$ [NC]
-RewriteRule ^(.*)$ https://kostymy.github.io/halloween-cikavarko.sk/$1 [L,R=301]
+RewriteEngine On
+
+# Redirect www.example.com to example.com
+RewriteCond %{HTTP_HOST} ^www\.kostymy\.github\.io$
+RewriteRule ^(.*)$ https://kostymy.github.io/$1 [L,R=301]
 
 
 <Directory "/path/to/your/website">
