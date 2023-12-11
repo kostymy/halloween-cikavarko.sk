@@ -1,8 +1,8 @@
 # Enable URL rewriting
 RewriteEngine On
+RewriteCond %{HTTP_HOST} !^kostymy\.github\.io/halloween-cikavarko\.sk$ [NC]
+RewriteRule ^(.*)$ https://kostymy.github.io/halloween-cikavarko.sk/$1 [L,R=301]
 
-RewriteCond %{HTTP_HOST} !^https://kostymy.github.io/halloween-cikavarko.sk/$ [NC]
-RewriteRule ^(.*)$ https://kostymy.github.io/halloween-cikavarko.sk//$1 [L,R=301]
 
 <Directory "/path/to/your/website">
     AllowOverride FileInfo
