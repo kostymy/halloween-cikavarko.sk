@@ -7,7 +7,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 
-Redirect 301 /old-page.html /new-page.html
+Redirect 404 /old-page.html /new-page.html
 
 Options -Indexes
 
