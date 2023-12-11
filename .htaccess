@@ -7,9 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 
-Redirect 404 /https://kostymy.github.io/halloween-kostymy-cikavarko.sk/ https://kostymy.github.io/halloween-cikavarko.sk/
-
-
 Options -Indexes
 
 RewriteCond %{HTTP_REFERER} !^$
