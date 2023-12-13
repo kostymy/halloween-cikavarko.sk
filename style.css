@@ -255,6 +255,13 @@ section{
     margin-top: 20rem;
 }
 
+.home .home-slider .box .content h2{
+    font-size: 6.5rem;
+    color:#fff;
+    transition-delay: .2s;
+    margin-top: 20rem;
+}
+
 .home .home-slider .box .content p{
     font-size: 3rem;
     color:#fff;
@@ -387,7 +394,7 @@ section{
     max-width: 50rem;
 }
 
-.about .content h1{
+.about .content h4{
     font-size: 3rem;
     color:var(--main-color);
 }
@@ -545,7 +552,7 @@ section{
     background: #222;
 }
 
-.blogs .box-container .box .content h3{
+.blogs .box-container .box .content h5{
    font-size: 2.5rem;
    color:var(--main-color);
    line-height: 1.8;
