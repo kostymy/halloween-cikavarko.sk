@@ -3,11 +3,21 @@ Disallow: /cgi-bin/
 Disallow: /image/
 Disallow: /js/
 Disallow: /style.css
-Disallow: /index.html
+Disallow: /#home
+Disallow: /#products
+Disallow: /#about
+Disallow: /#arrivals
+Disallow: /#contact
+Disallow: /#blogs
 
 User-agent: Bingbot
 Disallow: /cgi-bin/
 Disallow: /image/
 Disallow: /js/
 Disallow: /style.css
-Disallow: /index.html
+Disallow: /#home
+Disallow: /#products
+Disallow: /#about
+Disallow: /#arrivals
+Disallow: /#contact
+Disallow: /#blogs
