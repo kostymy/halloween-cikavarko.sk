@@ -9,6 +9,8 @@ Disallow: /#about
 Disallow: /#arrivals
 Disallow: /#contact
 Disallow: /#blogs
+Sitemap: https://kostymy.github.io/halloween-cikavarko.sk/sitemap.xml
+
 
 User-agent: Bingbot
 Disallow: /cgi-bin/
@@ -21,3 +23,4 @@ Disallow: /#about
 Disallow: /#arrivals
 Disallow: /#contact
 Disallow: /#blogs
+Sitemap: https://kostymy.github.io/halloween-cikavarko.sk/sitemap.xml
