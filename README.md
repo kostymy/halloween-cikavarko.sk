@@ -1,1 +1,1 @@
-# halloween-kostymy.sk
+# kostymy.github.io
